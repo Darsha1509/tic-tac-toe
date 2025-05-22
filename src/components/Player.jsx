@@ -14,7 +14,6 @@ export default function Player({ initialName, symbol, isActive }) {
     // the latest value comes.
 
     function handleChange(event) {
-        console.log(event);
         setPlayerName(event.target.value);
     }
     
